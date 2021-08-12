@@ -11,7 +11,7 @@ curl -LSfs get.zokrat.es | sh
 ```bash
 zokrates compile -i streebog_step_1.zok -o streebog_constr_1 --ztf
 
-zokrates compute-witness -i streebog_constr_1 -a 0 0 0 0 0 0 3 2 0 0 0 0 0 0 5 5
+zokrates compute-witness --verbose -i streebog_constr_1 -a 0 0 0 0 0 0 3 2 0 0 0 0 0 0 5 5
 
 ```
 

@@ -2,4 +2,14 @@ import "./stdlib/hashes/streebog/256bit" as H
 
 def main(private u32[8] k, u32[8] m) -> u32[8]:
     u32[8] hmac = H(0x5c5c5c5c, k, H(0x36363636, k, m))
-    return hmac
+    assert(hmac[0] == 2111023067)
+    assert(hmac[1] == 3863572868)
+    assert(hmac[2] == 1931338855)
+    assert(hmac[3] == 518360344)
+    assert(hmac[4] == 3745783759)
+    assert(hmac[5] == 2818038614)
+    assert(hmac[6] == 552351532)
+    assert(hmac[7] == 2379241901)
+    
+    return 
+    
