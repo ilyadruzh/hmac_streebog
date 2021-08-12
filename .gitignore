@@ -5,13 +5,6 @@ target
 # ZoKrates default files
 out
 out.ztf
-abi.json
-proof.json
-proving.key
-verification.key
-verifier.sol
-proof.json
-witness
 get_hash.ztf
 
 # Remove Cargo.lock from gitignore if creating an executable, leave it for libraries
@@ -23,4 +16,7 @@ get_hash.ztf
 .vscode
 *.iml
 
+proving.key
+
 help.md
+witness
