@@ -10,6 +10,4 @@ def main(private u32[8] k, u32[8] m) -> u32[8]:
     assert(hmac[5] == 2818038614)
     assert(hmac[6] == 552351532)
     assert(hmac[7] == 2379241901)
-    
-    return 
-    
+    return
